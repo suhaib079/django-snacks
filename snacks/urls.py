@@ -4,6 +4,6 @@ from .views import HomeView , about
 
 
 urlpatterns = [
-    path ('home' , HomeView.as_view(), name='home'),
+    path ('' , HomeView.as_view(), name='home'),
     path ('about' , about.as_view() , name='about')
 ]
